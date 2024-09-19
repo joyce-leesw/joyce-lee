@@ -1,0 +1,78 @@
+:root {
+  font-family: 'MontserratLight', sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0a192f;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  letter-spacing: 0.07em;
+}
+
+h1 {
+  font-size: 5em;
+  line-height: 0.5;
+  font-family: 'MontserratBold';
+}
+
+h2 {
+  font-size: 2.5em;
+  font-family: 'MontserratBold';
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: 'MontserratRegular';
+}
+
+h4 {
+  font-size: 1.3em;
+  font-family: 'MontserratLight';
+}
+
+button {
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1.2em;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@font-face {
+  font-family: 'MontserratLight';
+  src: url('fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url('fonts/Montserrat/static/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('fonts/Montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
+}
