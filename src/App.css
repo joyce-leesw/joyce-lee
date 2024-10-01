@@ -58,6 +58,8 @@
 .nav-icons ul, .nav-links ul {
   display: flex;
   gap: 2rem;
+  justify-content: center;
+  align-items: center; 
 }
 
 .nav-tabs li {
