@@ -53,11 +53,13 @@
   align-items: center;
 }
 
+.project-website-link,
 .project-github-link {
   display: flex;
   align-items: center;
   color: white;
   text-decoration: none;
+  margin-right: 0.5rem;
 }
 
 .project-github-icon {
@@ -66,12 +68,21 @@
   transition: color 0.3s ease;
 }
 
-.project-github-item {
+.project-items {
   position: absolute;
-  bottom: 2rem;
-  right: 2rem; 
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
 }
 
+.project-website-link:hover .project-website-icon,
 .project-github-link:hover .project-github-icon {
   color: turquoise;
+}
+
+.project-website-icon {
+  width: 25px; 
+  height: 25px;
+  transition: color 0.3s ease;
 }
