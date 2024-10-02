@@ -5,11 +5,24 @@ import joyceAnimation from '../animations/joyce-animation.json';
 import '../styles/About.css';
 
 export default function About () {
+	const highlightText = (text) => {
+    const parts = text.split(/(\*[^*]+\*)/g);
+    return parts.map((part, index) => {
+			if (part.startsWith('*') && part.endsWith('*')) {
+				const highlightedText = part.slice(1, -1);
+				return <span key={index} className="highlight">{highlightedText}</span>;
+			} 
+			return part;
+    });
+	};
+
 	return (
 		<Section id="about" title="About">
 			<div className="content-wrapper">
 				<div className="content">
-					{ABOUT}
+					{ABOUT.split('\n\n').map((paragraph, index) => (
+						<p key={index}>{highlightText(paragraph)}</p>
+					))}
 				</div>
 				<Lottie animationData={joyceAnimation} loop={true} style={{ height: 300, width: 300 }} />
 			</div>

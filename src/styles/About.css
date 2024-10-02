@@ -10,3 +10,8 @@
   font-family: 'MontserratLight';
   width: 70%;
 }
+
+.highlight {
+  color: turquoise;
+  font-family: 'MontserratBold';
+}

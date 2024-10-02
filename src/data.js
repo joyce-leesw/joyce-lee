@@ -1,7 +1,7 @@
 export const INTRO_TITLE = "Hello World! I'm";
-export const INTRO_NAME = "Joyce"
+export const INTRO_NAME = "Joyce Lee"
 export const INTRO_SUBTITLE = "Welcome to my little corner of the internet. I’m glad you’re here!";
-export const ABOUT = `I'm a software engineer based in London, currently working at Post Op, where I'm dedicated to making healthcare accessible to everyone, everywhere. My role involves designing intuitive mobile apps and occasionally developing web applications that help bring this vision to life.\n\nOutside of work, I dive into the fascinating world of AI, where I experiment with different machine learning models to unlock the potential of data.\n\nWhen I'm not immersed in coding, you'll find me enjoying a game of chess, diving into a good book, or staying active with various sports.`;
+export const ABOUT = `I'm a software engineer based in *London*, currently working at *Post Op*, where I'm dedicated to making healthcare accessible to everyone, everywhere. My role involves designing intuitive mobile apps and occasionally developing web applications that help bring this vision to life.\n\nOutside of work, I dive into the fascinating world of AI, where I experiment with different machine learning models to unlock the potential of data.\n\nWhen I'm not immersed in coding, you'll find me enjoying a game of chess, diving into a good book, or staying active with various sports.`;
 
 export const EXPERIENCES = [
 	{

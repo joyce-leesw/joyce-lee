@@ -4,9 +4,9 @@ import '../styles/Intro.css';
 export default function Intro () {
 	return (
 		<section id="home" className="intro">
-			<h2>{INTRO_TITLE}</h2>
+			<h3>{INTRO_TITLE}</h3>
 			<h1>{INTRO_NAME}</h1>
-			<h3>{INTRO_SUBTITLE}</h3>
+			<h4>{INTRO_SUBTITLE}</h4>
 		</section>
 	)
 }
