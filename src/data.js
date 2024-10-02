@@ -23,19 +23,19 @@ export const PROJECTS = [
 		title: 'Eventra',
 		description: 'Recommendation system using Machine Learning',
 		languages: ['Python', 'FastAPI', 'React', 'PostgreSQL'],
-		link: 'https://github.com/joyce-leesw/eventra-frontend'
+		githubLink: 'https://github.com/joyce-leesw/eventra-frontend'
 	},
 	{
 		title: 'Chess Chatbot',
 		description: 'Analysed chess games and thoeries given any chess books',
 		languages: ['Python', 'Praw', 'LLamaIndex'],
-		link: 'https://github.com/joyce-leesw/Sentiment-Analysis-of-ChatGPT-on-Reddit'
+		githubLink: 'https://github.com/joyce-leesw/Sentiment-Analysis-of-ChatGPT-on-Reddit'
 	},
 	{
 		title: 'Tic Tac Toe',
 		description: 'Tic Tac Toe using Q-Learning',
 		languages: ['Python', 'E-Greedy Algorithm'],
-		link: 'https://github.com/joyce-leesw/Tic-Tac-Toe-Bot-using-Q-Learning'
+		githubLink: 'https://github.com/joyce-leesw/Tic-Tac-Toe-Bot-using-Q-Learning'
 	},
 ]
 

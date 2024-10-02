@@ -20,6 +20,7 @@
   /* box-shadow: 0 2px 5px rgba(197, 192, 192, 0.6); */
   border-radius: 50px;
   font-family: 'MontserratLight';
+  position: relative;
 }
 
 .project h2 {
@@ -66,8 +67,9 @@
 }
 
 .project-github-item {
-  margin-top: auto;
-  align-self: flex-end;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem; 
 }
 
 .project-github-link:hover .project-github-icon {

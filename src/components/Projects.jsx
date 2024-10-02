@@ -13,7 +13,7 @@ export default function Projects () {
 						title={project.title}
 						description={project.description}
 						languages={project.languages}
-						link={project.link}/>
+						githubLink={project.githubLink}/>
 				))}
 			</div>
 		</Section>

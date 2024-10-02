@@ -1,7 +1,7 @@
 import GitHubIcon from "../assets/github-icon";
 import '../styles/Projects.css';
 
-export default function Project ({ title, description, languages, link }) {
+export default function Project ({ title, description, languages, githubLink }) {
 	return (
 		<section className="project">
 			<h2>{title}</h2>
@@ -14,7 +14,7 @@ export default function Project ({ title, description, languages, link }) {
 				))}
 			</div>
 			<div className="project-github-item">
-				<a href={link} target="_blank" rel="noopener noreferrer" className="project-github-link">
+				<a href={githubLink} target="_blank" rel="noopener noreferrer" className="project-github-link">
 					<GitHubIcon className="project-github-icon"/>
 				</a>
 			</div>
