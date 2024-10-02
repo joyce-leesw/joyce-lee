@@ -7,10 +7,12 @@ import '../styles/About.css';
 export default function About () {
 	return (
 		<Section id="about" title="About">
-			<div className="content">
-				{ABOUT}
+			<div className="content-wrapper">
+				<div className="content">
+					{ABOUT}
+				</div>
+				<Lottie animationData={joyceAnimation} loop={true} style={{ height: 300, width: 300 }} />
 			</div>
-			<Lottie animationData={joyceAnimation} loop={true} style={{ height: 300, width: 300 }} />
 		</Section>
 	)
 }

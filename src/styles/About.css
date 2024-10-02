@@ -1,10 +1,12 @@
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .content {
-  display: grid;
-  grid-template-rows: auto 1fr;
-  gap: 20px;
   font-size: 1.2em;
   line-height: 1.7;
   font-family: 'MontserratLight';
-  width: 90%;
+  width: 70%;
 }
