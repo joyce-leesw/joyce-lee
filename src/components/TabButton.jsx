@@ -1,3 +1,4 @@
+import '../styles/TabButton.css';
 
 export default function TabButton({ company, isSelected, ...props }) {
 	return (

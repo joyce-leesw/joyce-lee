@@ -2,6 +2,7 @@ import EmailIcon from "../assets/email-icon";
 import GitHubIcon from "../assets/github-icon";
 import LinkedInIcon from "../assets/linkedin-icon";
 import { GITHUB_URL, LINKEDIN_URL } from "../data";
+import '../styles/NavBar.css';
 
 export default function NavBar() {
 	return (

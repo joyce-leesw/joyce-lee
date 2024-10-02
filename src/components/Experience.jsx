@@ -2,7 +2,9 @@ import { EXPERIENCES } from '../data';
 import Achievements from './Achievements';
 import Section from './Section';
 import TabButton from './TabButton';
-import { useState } from 'react'
+import { useState } from 'react';
+import '../styles/TabButton.css';
+import '../styles/Experience.css';
 
 export default function Experience () {
 	const [selectedExperience, setSelectedExperience] = useState(0)
@@ -13,9 +15,8 @@ export default function Experience () {
   }
 
 	return (
-		<>
-			<Section id="experience" title="Experiences">
-			<div className="content-tab">
+		<Section id="experience" title="Experiences">
+			<div className="experience-container">
 				<menu className="tab-menu">
 					{EXPERIENCES.map((experience, index) => (
 						<TabButton 
@@ -28,7 +29,6 @@ export default function Experience () {
 				</menu>
 				<Achievements {...EXPERIENCES[selectedExperience]}/>
 			</div>
-			</Section>
-		</>
+		</Section>
 	)
 }

@@ -1,0 +1,7 @@
+.experience-container {
+  grid-template-columns: 1fr 3fr;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+  height: 350px;
+}

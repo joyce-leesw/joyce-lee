@@ -1,0 +1,12 @@
+.achievements-container {
+  flex-direction: column;
+  padding: 10px;
+  width: 90%;
+}
+
+.achievement {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  line-height: 1.7;
+  font-family: 'MontserratLight';
+}

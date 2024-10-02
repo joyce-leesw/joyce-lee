@@ -1,0 +1,75 @@
+#projects-container {
+  max-width: 250rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .2rem;
+  padding-bottom: 10rem;
+  justify-content: center;
+}
+
+.project {
+  width: 14rem;
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2.3rem;
+  margin: 1rem;
+  background-color: #12284d;
+  /* background: linear-gradient(#1b4481, #10215d); */
+  color: white;
+  /* box-shadow: 0 2px 5px rgba(197, 192, 192, 0.6); */
+  border-radius: 50px;
+  font-family: 'MontserratLight';
+}
+
+.project h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'MontserratBold';
+}
+
+.languages {
+  margin-top: 2rem;
+  max-width: 14rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.language {
+  height: 2rem;
+  padding: 0 1rem;
+  white-space: nowrap;
+  border-radius: 50px;
+  border: 2px solid turquoise;
+  font-family: 'MontserratLight';
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-github-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.project-github-icon {
+  width: 22px; 
+  height: 22px;
+  transition: color 0.3s ease;
+}
+
+.project-github-item {
+  margin-top: auto;
+  align-self: flex-end;
+}
+
+.project-github-link:hover .project-github-icon {
+  color: turquoise;
+}
