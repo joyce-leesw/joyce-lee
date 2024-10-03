@@ -11,12 +11,13 @@
   border-radius: 8px;
   overflow: hidden;
   margin: 0 auto;
-  color: white;
+  color: #ccd6f6;
 }
 
 .section {
   display: flex;
   flex-direction: column;
   padding: 60px 0;
+  color: #ccd6f6;
 }
 

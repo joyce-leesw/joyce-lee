@@ -16,7 +16,7 @@
   margin: 1rem;
   background-color: #12284d;
   /* background: linear-gradient(#1b4481, #10215d); */
-  color: white;
+  color: #ccd6f6;
   /* box-shadow: 0 2px 5px rgba(197, 192, 192, 0.6); */
   border-radius: 50px;
   font-family: 'MontserratLight';
@@ -28,7 +28,7 @@
   letter-spacing: 0.1em;
   margin: 0;
   text-transform: uppercase;
-  color: white;
+  color: #ccd6f6;
   font-family: 'MontserratBold';
 }
 
@@ -57,7 +57,7 @@
 .project-github-link {
   display: flex;
   align-items: center;
-  color: white;
+  color: #ccd6f6;
   text-decoration: none;
   margin-right: 0.5rem;
 }
@@ -82,7 +82,7 @@
 }
 
 .project-website-icon {
-  width: 25px; 
-  height: 25px;
+  width: 24px; 
+  height: 24px;
   transition: color 0.3s ease;
 }

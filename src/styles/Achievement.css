@@ -4,9 +4,23 @@
   width: 90%;
 }
 
+.company-name {
+  color: #ccd6f6;
+}
+
+.duration {
+  color: #a8b2d1;
+}
+
 .achievement {
   margin-bottom: 10px;
   font-size: 1.1em;
   line-height: 1.7;
   font-family: 'MontserratLight';
+  color: #a8b2d1;
+}
+
+.highlight {
+  color: turquoise;
+  font-family: 'MontserratBold';
 }

@@ -5,7 +5,6 @@ export default function TabButton({ company, isSelected, ...props }) {
 		<li>
 			<button 
 				className={isSelected ? 'selected' : ''} 
-				style={{ color: 'white' }}
 				{...props}
 			>
 				{company}

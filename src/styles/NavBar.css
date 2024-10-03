@@ -22,7 +22,7 @@
 }
 
 .nav-tabs a {
-  color: white;
+  color: #ccd6f6;
   text-decoration: none;
 }
 
@@ -34,7 +34,7 @@
 .github-link {
   display: flex;
   align-items: center;
-  color: white;
+  color: #ccd6f6;
   text-decoration: none;
 }
 

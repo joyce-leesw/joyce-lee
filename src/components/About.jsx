@@ -6,13 +6,30 @@ import '../styles/About.css';
 
 export default function About () {
 	const highlightText = (text) => {
-    const parts = text.split(/(\*[^*]+\*)/g);
+    const parts = text.split(/(\*[^*]+\*|<a[^>]*>.*?<\/a>)/g);
     return parts.map((part, index) => {
 			if (part.startsWith('*') && part.endsWith('*')) {
 				const highlightedText = part.slice(1, -1);
 				return <span key={index} className="highlight">{highlightedText}</span>;
-			} 
-			return part;
+			}
+			
+			const linkMatch = part.match(/<a href="([^"]+)" class="highlight hidden-link">(.*?)<\/a>/);
+			if (linkMatch) {
+				const url = linkMatch[1];
+				const linkText = linkMatch[2];
+				return (
+					<a 
+						key={index} 
+						href={url} 
+						target="_blank" 
+						rel="noopener noreferrer" 
+						className="highlight hidden-link"
+					>
+						{linkText}
+					</a>
+				);
+			}
+        return part;
     });
 	};
 
