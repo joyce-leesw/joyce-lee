@@ -1,7 +1,7 @@
 export const INTRO_TITLE = "Hello World! I'm";
 export const INTRO_NAME = "Joyce Lee"
 export const INTRO_SUBTITLE = "Welcome to my little corner of the internet. I’m glad you’re here!";
-export const ABOUT = `I'm a software engineer based in *London*, currently working at <a href="https://postop.ai" class="highlight hidden-link">Post Op</a>, where I'm dedicated to making healthcare accessible to everyone, everywhere. My role involves designing intuitive mobile apps and occasionally developing web applications that help bring this vision to life.\n\nOutside of work, I dive into the fascinating world of AI, where I experiment with different machine learning models to unlock the potential of data.\n\nWhen I'm not immersed in coding, you'll find me enjoying a game of chess, diving into a good book, or staying active with various sports.`;
+export const ABOUT = `I'm a software engineer based in *London*, currently working at <a href="https://postop.ai" class="highlight hidden-link">Post Op</a>, where I design intuitive mobile apps to make healthcare accessible to everyone, everywhere.\n\nOutside of work, I dive into the fascinating world of AI, where I experiment with different machine learning models to unlock the potential of data.\n\nWhen I'm not immersed in coding, I enjoy playing a game of chess, burying myself in a good book, or hiking up a mountain where I question all my life decisions around the third mile.`;
 
 export const EXPERIENCES = [
 	{
