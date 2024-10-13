@@ -1,4 +1,4 @@
-## Run Locally
+## 💻 Run Locally
 
 1. **Install dependencies**
 
@@ -12,7 +12,7 @@ npm install
 npm run dev
 ```
 
-## Color Reference
+## 🎨 Colour Reference
 
 | Colour            | Hex        | Preview   |
 |-------------------|------------|-----------|
