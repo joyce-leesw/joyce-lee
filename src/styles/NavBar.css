@@ -4,7 +4,7 @@
   position: sticky; 
   top: 0;
   z-index: 100;
-  background-color: #0a192f;
+  background-color: var(--navy);
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -22,19 +22,19 @@
 }
 
 .nav-tabs a {
-  color: #ccd6f6;
+  color: var(--lightest-slate);
   text-decoration: none;
 }
 
 .nav-tabs a:hover {
-  color: turquoise;
+  color: var(--turquoise);
 }
 
 .linkedin-link, 
 .github-link {
   display: flex;
   align-items: center;
-  color: #ccd6f6;
+  color: var(--lightest-slate);
   text-decoration: none;
 }
 
@@ -46,5 +46,5 @@
 
 .linkedin-link:hover icon,
 .github-link:hover icon {
-  color: turquoise;
+  color: var(--turquoise);
 }

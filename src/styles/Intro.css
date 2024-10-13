@@ -6,5 +6,5 @@
 }
 
 .intro h3 {
-  color: turquoise;
+  color: var(--turquoise);
 }

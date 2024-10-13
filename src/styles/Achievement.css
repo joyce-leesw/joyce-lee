@@ -5,11 +5,11 @@
 }
 
 .company-name {
-  color: #ccd6f6;
+  color: var(--lightest-slate);
 }
 
 .duration {
-  color: #a8b2d1;
+  color: var(--light-slate);
 }
 
 .achievement {
@@ -17,10 +17,10 @@
   font-size: 1.1em;
   line-height: 1.7;
   font-family: 'MontserratLight';
-  color: #a8b2d1;
+  color: var(--light-slate);
 }
 
 .highlight {
-  color: turquoise;
+  color: var(--turquoise);
   font-family: 'MontserratBold';
 }

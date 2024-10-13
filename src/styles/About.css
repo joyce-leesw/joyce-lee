@@ -9,11 +9,11 @@
   line-height: 1.7;
   font-family: 'MontserratLight';
   width: 70%;
-  color: #a8b2d1;
+  color: var(--light-slate);
 }
 
 .highlight {
-  color: turquoise;
+  color: var(--turquoise);
   font-family: 'MontserratBold';
 }
 

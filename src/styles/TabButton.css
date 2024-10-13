@@ -16,13 +16,13 @@
   width: 350px;
   text-align: left; 
   border-radius: 0;
-  color: #ccd6f6;
+  color: var(--lightest-slate);
 }
 
 .tab-menu button:hover {
-	background-color: grey;
+	background-color: var(--slate);
 }
 
 .tab-menu button.selected {
-  border-right: 3px solid turquoise;
+  border-right: 3px solid var(--turquoise);
 }

@@ -3,5 +3,5 @@
   flex-direction: column;
   align-items: center;
   font-size: 0.7em;
-  color: #ccd6f6;
+  color: var(--lightest-slate);
 }
