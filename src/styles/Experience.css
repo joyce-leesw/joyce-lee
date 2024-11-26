@@ -3,5 +3,12 @@
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 20px;
-  height: 350px;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  .experience-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
 }

@@ -48,3 +48,29 @@
 .github-link:hover icon {
   color: var(--turquoise);
 }
+
+@media (max-width: 480px) {
+  .nav-icons ul {
+    gap: 2rem;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .nav-tabs {
+    width: 100%;
+  }
+
+  .nav-icons {
+    display: flex;
+    width: 100%;
+    background-color: var(--navy);
+    z-index: 100;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}

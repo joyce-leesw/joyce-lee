@@ -1,14 +1,15 @@
 #projects-container {
-  max-width: 250rem;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: .2rem;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
   justify-content: center;
 }
 
 .project {
-  width: 14rem;
+  width: calc(100% / 2 - 1rem);
+  max-width: 14rem;
   height: 18rem;
   display: flex;
   flex-direction: column;
@@ -85,4 +86,19 @@
   width: 24px; 
   height: 24px;
   transition: color 0.3s ease;
+}
+
+@media (max-width: 480px) {
+  #projects-container {
+    padding-bottom: 5rem;
+  }
+
+  .project {
+    width: calc(100% - 1rem);
+    margin: 0.5rem auto;
+  }
+
+  .language {
+    font-size: 0.8rem;
+  }
 }

@@ -24,3 +24,14 @@
   color: var(--turquoise);
   font-family: 'MontserratBold';
 }
+
+@media (max-width: 480px) {
+  .achievements-container {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .achievement {
+    font-size: 1.1em;
+  }
+}
