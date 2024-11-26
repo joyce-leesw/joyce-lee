@@ -100,4 +100,9 @@
   .language {
     font-size: 0.8rem;
   }
+
+  .project-website-link:hover .project-website-icon,
+  .project-github-link:hover .project-github-icon {
+    color: var(--lightest-slate);
+  }
 }

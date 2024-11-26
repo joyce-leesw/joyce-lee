@@ -37,4 +37,8 @@
     width: 100%;
     text-align: left;
   }
+
+  .hidden-link:hover {
+    text-decoration: none;
+  }
 }

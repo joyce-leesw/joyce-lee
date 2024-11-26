@@ -54,6 +54,15 @@
   .nav-tabs {
     width: 90%;
   }
+
+  .nav-tabs a:hover {
+    color: var(--lightest-slate);
+  }
+
+  .linkedin-link:hover icon,
+  .github-link:hover icon {
+    color: var(--lightest-slate);
+  }
 }
 
 @media only screen and (max-width: 788px) {
