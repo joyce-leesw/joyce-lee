@@ -8,7 +8,7 @@
   color: var(--turquoise);
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .intro {
     padding: 0 0;
   }

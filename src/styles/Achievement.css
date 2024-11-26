@@ -25,7 +25,7 @@
   font-family: 'MontserratBold';
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 788px) {
   .achievements-container {
     width: 100%;
     margin-top: 10px;
