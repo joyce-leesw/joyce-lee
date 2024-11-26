@@ -4,7 +4,6 @@
   justify-content: center;
   padding: 10px;
   background-color: var(--navy);
-  overflow-x: hidden
 }
 
 .main-content {
@@ -34,6 +33,7 @@
 @media only screen and (max-width: 788px) {
   .container {
     padding: 0;
+    overflow-x: hidden
   }
 
   .main-content {
