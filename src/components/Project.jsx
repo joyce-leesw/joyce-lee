@@ -2,7 +2,7 @@ import GitHubIcon from "../assets/github-icon";
 import WebsiteIcon from "../assets/website-icon";
 import '../styles/Projects.css';
 
-export default function Project ({ title, description, languages, githubLink }) {
+export default function Project ({ title, description, languages, websiteLink, githubLink }) {
 	return (
 		<section className="project">
 			<h2>{title}</h2>
@@ -15,9 +15,11 @@ export default function Project ({ title, description, languages, githubLink }) 
 				))}
 			</div>
 			<div className="project-items">
-				<a href={githubLink} target="_blank" rel="noopener noreferrer" className="project-website-link">
-					<WebsiteIcon className="project-website-icon"/>
-				</a>
+				{websiteLink && (
+					<a href={websiteLink} target="_blank" rel="noopener noreferrer" className="project-website-link">
+						<WebsiteIcon className="project-website-icon"/>
+					</a>
+				)}
 				<a href={githubLink} target="_blank" rel="noopener noreferrer" className="project-github-link">
 					<GitHubIcon className="project-github-icon"/>
 				</a>
