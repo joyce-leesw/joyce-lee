@@ -1,6 +1,7 @@
 import GitHubIcon from "../assets/github-icon";
 import WebsiteIcon from "../assets/website-icon";
 import '../styles/Projects.css';
+import PropTypes from 'prop-types';
 
 export default function Project ({ title, description, languages, websiteLink, githubLink }) {
 	return (
@@ -27,3 +28,18 @@ export default function Project ({ title, description, languages, websiteLink, g
 		</section>
 	)
 }
+
+Project.propTypes = {
+	title: PropTypes.string.isRequired,
+	description: PropTypes.string,
+	languages: PropTypes.arrayOf(PropTypes.string),
+	websiteLink: PropTypes.string,
+	githubLink: PropTypes.string
+};
+
+Project.defaultProps = {
+	description: '',
+	languages: [],
+	websiteLink: '',
+	githubLink: ''
+};

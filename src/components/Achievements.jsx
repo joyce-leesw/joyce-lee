@@ -1,4 +1,5 @@
 import '../styles/Achievement.css';
+import PropTypes from 'prop-types';
 
 export default function Achievements ({ title, date, achievements }) {
 
@@ -25,3 +26,14 @@ export default function Achievements ({ title, date, achievements }) {
 		</div>
 	)
 }
+
+Achievements.propTypes = {
+	title: PropTypes.string.isRequired,
+	date: PropTypes.string,
+	achievements: PropTypes.arrayOf(PropTypes.string),
+};
+
+Achievements.defaultProps = {
+	date: '',
+	achievements: [],
+};
