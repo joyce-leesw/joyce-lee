@@ -5,16 +5,17 @@
 }
 
 .content {
-  font-size: 1.2em;
-  line-height: 1.7;
-  font-family: 'MontserratLight';
+  font-size: 1.4em;
+  line-height: 1.3;
+  font-family: 'CalibreRegular';
+  letter-spacing: 0.01em;
   width: 70%;
   color: var(--light-slate);
 }
 
 .highlight {
   color: var(--turquoise);
-  font-family: 'MontserratBold';
+  font-family: 'CalibreSemibold';
 }
 
 .hidden-link {

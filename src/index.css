@@ -76,3 +76,13 @@ button {
   font-family: 'MontserratBold';
   src: url('fonts/Montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'CalibreSemibold';
+  src: url('fonts/Calibre/CalibreSemibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'CalibreRegular';
+  src: url('fonts/Calibre/CalibreRegular.otf') format('opentype');
+}

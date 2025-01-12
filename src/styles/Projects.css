@@ -10,7 +10,7 @@
 .project {
   width: calc(100% / 2 - 1rem);
   max-width: 14rem;
-  height: 18rem;
+  height: 20rem;
   display: flex;
   flex-direction: column;
   padding: 2.3rem;
@@ -19,7 +19,8 @@
   /* background: linear-gradient(#1b4481, #10215d); */
   /* box-shadow: 0 2px 5px rgba(197, 192, 192, 0.6); */
   border-radius: 50px;
-  font-family: 'MontserratLight';
+  letter-spacing: 0.03em;
+  line-height: 1.4rem;
   position: relative;
 }
 
@@ -29,11 +30,11 @@
   margin: 0;
   text-transform: uppercase;
   color: var(--lightest-slate);
-  font-family: 'MontserratBold';
+  line-height: 2rem;
 }
 
 .languages {
-  margin-top: 2rem;
+  margin-top: 0.2rem;
   max-width: 14rem;
   display: flex;
   flex-wrap: wrap;
@@ -46,7 +47,6 @@
   white-space: nowrap;
   border-radius: 50px;
   border: 2px solid var(--turquoise);
-  font-family: 'MontserratLight';
   text-align: center;
   display: flex;
   justify-content: center;
