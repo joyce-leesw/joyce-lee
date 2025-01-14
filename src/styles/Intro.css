@@ -4,11 +4,6 @@
   padding: 60px 0;
 }
 
-.intro h4 {
-  color: var(--turquoise);
-  font-size: 1.2em;
-}
-
 .intro h3 {
   color: var(--slate);
   font-size: 1.6em;
