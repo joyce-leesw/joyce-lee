@@ -9,8 +9,8 @@ export const EXPERIENCES = [
     date: 'JUNE 2023 - PRESENT',
     achievements: [
       '- Collaborated closely with a small team to complete redesign and feature expansion in *TypeScript*, resulting in a successful user launch',
-      '- Successfully transitioned an *Expo-based* MVP to a production-ready mobile application',
       '- Refactored codebase and reduced latency by 260% by optimising network requests and UI performance',
+      '- Successfully transitioned a framework-based(*Expo*) MVP to a production-ready mobile application',
       '- Introduced gamification within a mobile application to enhance user engagement, currently conducting research on A/B testing methodologies to optimise user experience and feature effectiveness',
     ],
   },
@@ -19,7 +19,7 @@ export const EXPERIENCES = [
     title: 'Machine Learning Engineer',
     date: 'OCT 2022 - APR 2023',
     achievements: [
-      '- Designed and implemented a system in *Python* utilising *Tensorflow* and *Keras*, integrating LSTM with an autoencoder and DNN to detect operational anomalies in IoT devices',
+      '- Designed an AI system in *Python* utilising *Tensorflow* and *Keras* to detect operational anomalies in IoT devices',
       '- Successfully predicted the state-of-health(SoH) and state-of-charge(SoC) over charging cycles and end-of-life(EOL) of batteries with 92% accuracy on test data',
       '- Productionised the models by creating REST API using *Django*',
     ],
@@ -30,7 +30,7 @@ export const PROJECTS = [
   {
     title: 'Eventra',
     description:
-      "A recommendation system that predicts user's interest in events based on past preferences",
+      "An AI recommendation system that predicts user's interest in events based on past preferences",
     languages: ['Python', 'FastAPI', 'TypeScript', 'PostgreSQL'],
     websiteLink: 'https://github.com/joyce-leesw/eventra-frontend',
     githubLink: 'https://github.com/harrywiner/eventra-backend',
