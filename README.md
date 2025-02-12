@@ -1,6 +1,6 @@
 ## 💻 Run Locally
 
-1. **Install dependencies**
+1. **Install the dependencies**
 
 ```bash
 npm install
@@ -10,6 +10,18 @@ npm install
 
 ```bash
 npm run dev
+```
+
+3. **Create a production build**
+
+```bash
+npm run build
+```
+
+4. **Preview the production version locally**
+
+```bash
+npm run preview
 ```
 
 ## 🎨 Colour Reference
