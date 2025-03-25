@@ -32,7 +32,7 @@ export const PROJECTS = [
     languages: ['OpenAI', 'Next.js', 'Docker', 'AWS CDK'],
     websiteLink: 'https://bitewell.vercel.app',
     githubLink:
-      'https://github.com/joyce-leesw/Bitewell',
+      'https://github.com/joyce-leesw/bitewell',
   },
   {
     title: 'Eventra',
@@ -47,9 +47,9 @@ export const PROJECTS = [
     description:
       'An interactive Tic Tac Toe interface featuring an AI bot trained using Reinforcement Learning',
     languages: ['Python', 'React', 'JavaScript', 'E-Greedy Algorithm'],
-    websiteLink: 'https://github.com/joyce-leesw/Tic-Tac-Toe-Frontend',
+    websiteLink: 'https://github.com/joyce-leesw/tic-tac-toe-frontend',
     githubLink:
-      'https://github.com/joyce-leesw/Tic-Tac-Toe-Bot-using-Q-Learning',
+      'https://github.com/joyce-leesw/tic-tac-toe-bot',
   },
 ];
 
