@@ -8,10 +8,9 @@ export const EXPERIENCES = [
     title: 'Software Engineer',
     date: 'JUNE 2023 - PRESENT',
     achievements: [
-      '- Collaborated closely with a small team to complete redesign and feature expansion in *TypeScript*, resulting in a successful user launch',
-      '- Refactored codebase and reduced latency by 260% by optimising network requests and UI performance',
-      '- Successfully transitioned a framework-based(*Expo*) MVP to a production-ready mobile application',
-      '- Introduced gamification within a mobile application to enhance user engagement, currently conducting research on A/B testing methodologies to optimise user experience and feature effectiveness',
+      '- Expanded functionality and refined user experience in a mobile application with *TypeScript* and *React Native*, contributing to a successful user launch with widespread adoption',
+      '- Refactored the codebase to optimise network requests and enhance UI performance, achieving a 260% reduction in latency and subsequently implemented unit tests with *Jest* to maintain robust code quality and reliability',
+      '- Enhanced user engagement by introducing gamification elements and researching A/B testing methodologies to further optimise user retention and interaction',
     ],
   },
   {
@@ -19,7 +18,7 @@ export const EXPERIENCES = [
     title: 'Machine Learning Engineer',
     date: 'OCT 2022 - APR 2023',
     achievements: [
-      '- Designed an AI system in *Python* utilising *Tensorflow* and *Keras* to detect operational anomalies in IoT devices',
+      '- Designed a system in *Python* utilising *Tensorflow* and *Keras* to detect operational anomalies in IoT devices',
       '- Successfully predicted the state-of-health(SoH) and state-of-charge(SoC) over charging cycles and end-of-life(EOL) of batteries with 92% accuracy on test data',
       '- Productionised the models by creating REST API using *Django*',
     ],
@@ -28,9 +27,17 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: 'Bitewell',
+    description: 'A SaaS recipe recommendation platform that suggests healthy meal ideas tailored to the ingredients users have at hand',
+    languages: ['OpenAI', 'Next.js', 'Docker', 'AWS CDK'],
+    websiteLink: 'https://bitewell.vercel.app',
+    githubLink:
+      'https://github.com/joyce-leesw/Bitewell',
+  },
+  {
     title: 'Eventra',
     description:
-      "An AI recommendation system that predicts user's interest in events based on past preferences",
+      "A personalised AI recommendation system that recommends events by analysing users' past preferences",
     languages: ['Python', 'FastAPI', 'TypeScript', 'PostgreSQL'],
     websiteLink: 'https://github.com/joyce-leesw/eventra-frontend',
     githubLink: 'https://github.com/harrywiner/eventra-backend',
@@ -43,13 +50,6 @@ export const PROJECTS = [
     websiteLink: 'https://github.com/joyce-leesw/Tic-Tac-Toe-Frontend',
     githubLink:
       'https://github.com/joyce-leesw/Tic-Tac-Toe-Bot-using-Q-Learning',
-  },
-  {
-    title: 'Encoder Decoder Translation',
-    description: 'A French-to-English language translation model',
-    languages: ['Tensorflow', 'Keras', 'Embeddings'],
-    githubLink:
-      'https://github.com/joyce-leesw/Sentiment-Analysis-of-ChatGPT-on-Reddit',
   },
 ];
 
