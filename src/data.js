@@ -47,7 +47,6 @@ export const PROJECTS = [
     description:
       'An interactive Tic Tac Toe interface featuring an AI bot trained using Reinforcement Learning',
     languages: ['Python', 'React', 'JavaScript', 'E-Greedy Algorithm'],
-    websiteLink: 'https://github.com/joyce-leesw/tic-tac-toe-frontend',
     githubLink:
       'https://github.com/joyce-leesw/tic-tac-toe-bot',
   },
