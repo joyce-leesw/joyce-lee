@@ -8,9 +8,9 @@ export const EXPERIENCES = [
     title: 'Software Engineer',
     date: 'JUNE 2023 - PRESENT',
     achievements: [
-      '- Expanded functionality and refined user experience in a mobile application with *TypeScript* and *React Native*, contributing to a successful user launch with widespread adoption',
-      '- Refactored the codebase to optimise network requests and enhance UI performance, achieving a 260% reduction in latency and subsequently implemented unit tests with *Jest* to maintain robust code quality and reliability',
-      '- Enhanced user engagement by introducing gamification elements and researching A/B testing methodologies to further optimise user retention and interaction',
+      '- Developed a mobile application’s functionality and user experience using *TypeScript*, *React*, and *React Native*, and implemented comprehensive unit tests with *Jest*',
+      '- Refactored the codebase to optimise network requests and UI performance, reducing latency by 90%, and contributed to a successful relaunch on the App Store and Google Play',
+      '- Spearheading a cross-functional team of 10 engineers, designers, and PMs to develop a major new gamification feature to boost user engagement',
     ],
   },
   {
@@ -18,29 +18,28 @@ export const EXPERIENCES = [
     title: 'Machine Learning Engineer',
     date: 'OCT 2022 - APR 2023',
     achievements: [
-      '- Designed a system in *Python* utilising *Tensorflow* and *Keras* to detect operational anomalies in IoT devices',
-      '- Successfully predicted the state-of-health(SoH) and state-of-charge(SoC) over charging cycles and end-of-life(EOL) of batteries with 92% accuracy on test data',
-      '- Productionised the models by creating REST API using *Django*',
+      '- Developed and trained machine learning algorithms using neural networks to predict the lifecycle of industrial-scale batteries, achieving 92.7% accuracy on test datasets',
+      '- Designed an anomaly detection system in *Python* using *Tensorflow*, *Keras*, and *Pandas*, combining LSTM networks with an autoencoder to identify irregularities in IoT devices based on historical performance data',
+      '- Deployed the models into production with *REST*ful APIs using *Django REST Framework*',
     ],
   },
 ];
 
 export const PROJECTS = [
   {
+    title: 'Muscle Memory',
+    description:
+      "A platform that tracks and analyses user's workouts over time",
+    languages: ['Python', 'FastAPI', 'TypeScript', 'React', 'PostgreSQL'],
+    githubLink: 'https://github.com/joyce-leesw/muscle-memory',
+  },
+  {
     title: 'Bitewell',
     description: 'A SaaS recipe recommendation platform that suggests healthy meal ideas tailored to the ingredients users have at hand',
-    languages: ['OpenAI', 'Next.js', 'Docker', 'AWS CDK'],
+    languages: ['OpenAI', 'Next.js', 'Docker', 'Tailwind', 'AWS CDK'],
     websiteLink: 'https://bitewell.vercel.app',
     githubLink:
       'https://github.com/joyce-leesw/bitewell',
-  },
-  {
-    title: 'Eventra',
-    description:
-      "A personalised AI recommendation system that recommends events by analysing users' past preferences",
-    languages: ['Python', 'FastAPI', 'TypeScript', 'PostgreSQL'],
-    websiteLink: 'https://github.com/joyce-leesw/eventra-frontend',
-    githubLink: 'https://github.com/harrywiner/eventra-backend',
   },
   {
     title: 'Tic Tac Toe',
